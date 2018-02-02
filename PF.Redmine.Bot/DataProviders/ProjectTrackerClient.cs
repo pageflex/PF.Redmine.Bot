@@ -8,15 +8,19 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
+using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PF.Redmine.Bot.DataProviders
 {
     class ProjectTrackerClient
     {
+        IConfiguration _configuration;
         public string ApiKey { get; private set; }
-        public ProjectTrackerClient(string apiKey)
+        public ProjectTrackerClient(string apiKey, IConfiguration configuration)
         {
-            ApiKey = apiKey;
+            _configuration = configuration ?? throw new Exception("Configuration Not Found");
+            ApiKey = apiKey ?? throw new Exception("No API Key given");
         }
         public Issue GetIssue(int IssueNum)
         {
@@ -177,9 +181,9 @@ namespace PF.Redmine.Bot.DataProviders
 
         }
 
-        private static string GetApiUrl()
+        private string GetApiUrl()
         {
-            return ConfigurationManager.AppSettings["PtUrl"];
+            return _configuration["PtUrl"];
         }
 
         private string GetApiKey()

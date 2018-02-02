@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27128.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PF.Redmine.Bot", "PF.Redmine.Bot\PF.Redmine.Bot.csproj", "{764FFC01-AFDE-4607-A321-46A5540B825D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PF.Redmine.Bot", "PF.Redmine.Bot\PF.Redmine.Bot.csproj", "{BC07231C-1727-48C5-A5E0-D2490C39D218}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PF.Redmine.Bot.Domain", "PF.Redmine.Bot.Domain\PF.Redmine.Bot.Domain.csproj", "{1C005512-65CD-4949-9894-422F0A754D10}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PF.Redmine.Bot.Domain", "PF.Redmine.Bot.Domain\PF.Redmine.Bot.Domain.csproj", "{1F6A8064-4540-46C7-8B54-F742B556B8A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{764FFC01-AFDE-4607-A321-46A5540B825D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{764FFC01-AFDE-4607-A321-46A5540B825D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{764FFC01-AFDE-4607-A321-46A5540B825D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{764FFC01-AFDE-4607-A321-46A5540B825D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C005512-65CD-4949-9894-422F0A754D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C005512-65CD-4949-9894-422F0A754D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C005512-65CD-4949-9894-422F0A754D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C005512-65CD-4949-9894-422F0A754D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC07231C-1727-48C5-A5E0-D2490C39D218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC07231C-1727-48C5-A5E0-D2490C39D218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC07231C-1727-48C5-A5E0-D2490C39D218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC07231C-1727-48C5-A5E0-D2490C39D218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6A8064-4540-46C7-8B54-F742B556B8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6A8064-4540-46C7-8B54-F742B556B8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6A8064-4540-46C7-8B54-F742B556B8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6A8064-4540-46C7-8B54-F742B556B8A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
